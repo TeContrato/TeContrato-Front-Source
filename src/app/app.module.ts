@@ -20,12 +20,14 @@ import {MatSidenavModule} from "@angular/material/sidenav";
 import { HomeComponent } from './home/home.component';
 import { FinalProject2Component } from './final-project2/final-project2.component';
 import {MatProgressBarModule} from "@angular/material/progress-bar";
+import { ProfileUserComponent } from './profile-user/profile-user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    FinalProject2Component
+    FinalProject2Component,
+    ProfileUserComponent
   ],
   imports: [
     BrowserModule,
